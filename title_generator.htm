@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .jb-xx-small { font-size: xx-small; }
+        .jb-x-small { font-size: x-small; }
+        .jb-small { font-size: small; }
+        .jb-medium { font-size: medium; }
+        .jb-large { font-size: large; }
+        .jb-x-large { font-size: x-large; }
+        .jb-xx-large { font-size: xx-large; }
+      </style>
+</head>
+<body class="jb-xx-large">
+    <select class="jb-xx-large" id="year">
+        <option value="2021학년도" selected>2021학년도</option>
+        <option value="2022학년도">2022학년도</option>
+        <option value="2023학년도">2023학년도</option>
+    </select>
+    <select class="jb-xx-large" id="semester">
+        <option value="1학기" selected>1학기</option>
+        <option value="2학기">2학기</option>
+    </select>
+
+    <!--1학년 시작-->
+    <h1>1학년</h1>
+    <table style="border:1px black solid;width:50%;height:50%;">
+        <tr>
+            <td>과목코드</td>
+            <td>
+                <select class="jb-xx-large" id="subject_code1">
+                    <option value="과학탐구실험(y1_t01)">과학탐구실험(y1_t01)</option>
+                    <option value="국어A(y1_t02)">국어A(y1_t02)</option>
+                    <option value="국어B(y1_t03)">국어B(y1_t03)</option>
+                    <option value="미술(y1_t04)">미술(y1_t04)</option>
+                    <option value="수학(y1_t05)">수학(y1_t05)</option>
+                    <option value="영어A(y1_t06)">영어A(y1_t06)</option>
+                    <option value="영어B(y1_t07)">영어B(y1_t07)</option>
+                    <option value="음악(y1_t08)">음악(y1_t08)</option>
+                    <option value="제2외국어(일본어)(y1_t09)">제2외국어(일본어)(y1_t09)</option>
+                    <option value="제2외국어(중국어)(y1_t10)">제2외국어(중국어)(y1_t10)</option>
+                    <option value="창체(동아리)(y1_t11)">창체(동아리)(y1_t11)</option>
+                    <option value="창체(정보)(y1_t12)">창체(정보)(y1_t12)</option>
+                    <option value="창체(진로와 직업)(y1_t13)">창체(진로와 직업)(y1_t13)</option>
+                    <option value="창체(진학)(y1_t14)">창체(진학)(y1_t14)</option>
+                    <option value="창체(학급회의)(y1_t15)">창체(학급회의)(y1_t15)</option>
+                    <option value="체육(y1_t16)">체육(y1_t16)</option>
+                    <option value="통합과학(물리학)(y1_t17)">통합과학(물리학)(y1_t17)</option>
+                    <option value="통합과학(생명과학)(y1_t18)">통합과학(생명과학)(y1_t18)</option>
+                    <option value="통합과학(지구과학)(y1_t19)">통합과학(지구과학)(y1_t19)</option>
+                    <option value="통합과학(화학)(y1_t20)">통합과학(화학)(y1_t20)</option>
+                    <option value="통합사회(일반사회)(y1_t21)">통합사회(일반사회)(y1_t21)</option>
+                    <option value="통합사회(지리)(y1_t22)">통합사회(지리)(y1_t22)</option>
+                    <option value="한국사(y1_t23)">한국사(y1_t23)</option>                    
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>차시</td>
+            <td>
+                <select class="jb-xx-large" id="order1">
+                    <option value="1차시">1차시</option>
+                    <option value="2차시">2차시</option>
+                    <option value="3차시">3차시</option>
+                    <option value="4차시">4차시</option>
+                    <option value="5차시">5차시</option>
+                    <option value="6차시">6차시</option>
+                    <option value="7차시">7차시</option>
+                    <option value="8차시">8차시</option>
+                    <option value="9차시">9차시</option>
+                    <option value="10차시">10차시</option>
+                    <option value="11차시">11차시</option>
+                    <option value="12차시">12차시</option>
+                    <option value="13차시">13차시</option>
+                    <option value="14차시">14차시</option>
+                    <option value="15차시">15차시</option>
+                    <option value="16차시">16차시</option>
+                    <option value="17차시">17차시</option>
+                    <option value="18차시">18차시</option>
+                    <option value="19차시">19차시</option>
+                    <option value="20차시">20차시</option>
+                    <option value="21차시">21차시</option>
+                    <option value="22차시">22차시</option>
+                    <option value="23차시">23차시</option>
+                    <option value="24차시">24차시</option>
+                    <option value="25차시">25차시</option>
+                    <option value="26차시">26차시</option>
+                    <option value="27차시">27차시</option>
+                    <option value="28차시">28차시</option>
+                    <option value="29차시">29차시</option>
+                    <option value="30차시">30차시</option>
+                    <option value="31차시">31차시</option>
+                    <option value="32차시">32차시</option>
+                    <option value="33차시">33차시</option>
+                    <option value="34차시">34차시</option>
+                    <option value="35차시">35차시</option>
+                    <option value="36차시">36차시</option>
+                    <option value="37차시">37차시</option>
+                    <option value="38차시">38차시</option>
+                    <option value="39차시">39차시</option>
+                    <option value="40차시">40차시</option>
+                    <option value="41차시">41차시</option>
+                    <option value="42차시">42차시</option>
+                    <option value="43차시">43차시</option>
+                    <option value="44차시">44차시</option>
+                    <option value="45차시">45차시</option>
+                    <option value="46차시">46차시</option>
+                    <option value="47차시">47차시</option>
+                    <option value="48차시">48차시</option>
+                    <option value="49차시">49차시</option>
+                    <option value="50차시">50차시</option>
+                    <option value="51차시">51차시</option>
+                    <option value="52차시">52차시</option>
+                    <option value="53차시">53차시</option>
+                    <option value="54차시">54차시</option>
+                    <option value="55차시">55차시</option>
+                    <option value="56차시">56차시</option>
+                    <option value="57차시">57차시</option>
+                    <option value="58차시">58차시</option>
+                    <option value="59차시">59차시</option>
+                    <option value="60차시">60차시</option>
+                    <option value="61차시">61차시</option>
+                    <option value="62차시">62차시</option>
+                    <option value="63차시">63차시</option>
+                    <option value="64차시">64차시</option>
+                    <option value="65차시">65차시</option>
+                    <option value="66차시">66차시</option>
+                    <option value="67차시">67차시</option>
+                    <option value="68차시">68차시</option>
+                    <option value="69차시">69차시</option>
+                    <option value="70차시">70차시</option>
+                    <option value="71차시">71차시</option>
+                    <option value="72차시">72차시</option>
+                    <option value="73차시">73차시</option>
+                    <option value="74차시">74차시</option>
+                    <option value="75차시">75차시</option>
+                    <option value="76차시">76차시</option>
+                    <option value="77차시">77차시</option>
+                    <option value="78차시">78차시</option>
+                    <option value="79차시">79차시</option>
+                    <option value="80차시">80차시</option>
+                    <option value="81차시">81차시</option>
+                    <option value="82차시">82차시</option>
+                    <option value="83차시">83차시</option>
+                    <option value="84차시">84차시</option>
+                    <option value="85차시">85차시</option>
+                    <option value="86차시">86차시</option>
+                    <option value="87차시">87차시</option>
+                    <option value="88차시">88차시</option>
+                    <option value="89차시">89차시</option>
+                    <option value="90차시">90차시</option>
+                    <option value="91차시">91차시</option>
+                    <option value="92차시">92차시</option>
+                    <option value="93차시">93차시</option>
+                    <option value="94차시">94차시</option>
+                    <option value="95차시">95차시</option>
+                    <option value="96차시">96차시</option>
+                    <option value="97차시">97차시</option>
+                    <option value="98차시">98차시</option>
+                    <option value="99차시">99차시</option>
+                    <option value="100차시">100차시</option>
+                    <option value="101차시">101차시</option>
+                    <option value="102차시">102차시</option>
+                    <option value="103차시">103차시</option>
+                    <option value="104차시">104차시</option>
+                    <option value="105차시">105차시</option>
+                    <option value="106차시">106차시</option>
+                    <option value="107차시">107차시</option>
+                    <option value="108차시">108차시</option>
+                    <option value="109차시">109차시</option>
+                    <option value="110차시">110차시</option>
+                    <option value="111차시">111차시</option>
+                    <option value="112차시">112차시</option>
+                    <option value="113차시">113차시</option>
+                    <option value="114차시">114차시</option>
+                    <option value="115차시">115차시</option>
+                    <option value="116차시">116차시</option>
+                    <option value="117차시">117차시</option>
+                    <option value="118차시">118차시</option>
+                    <option value="119차시">119차시</option>
+                    <option value="120차시">120차시</option>
+                    <option value="121차시">121차시</option>
+                    <option value="122차시">122차시</option>
+                    <option value="123차시">123차시</option>
+                    <option value="124차시">124차시</option>
+                    <option value="125차시">125차시</option>
+                    <option value="126차시">126차시</option>
+                    <option value="127차시">127차시</option>
+                    <option value="128차시">128차시</option>
+                    <option value="129차시">129차시</option>
+                    <option value="130차시">130차시</option>
+                    <option value="131차시">131차시</option>
+                    <option value="132차시">132차시</option>
+                    <option value="133차시">133차시</option>
+                    <option value="134차시">134차시</option>
+                    <option value="135차시">135차시</option>
+                    <option value="136차시">136차시</option>
+                    <option value="137차시">137차시</option>
+                    <option value="138차시">138차시</option>
+                    <option value="139차시">139차시</option>
+                    <option value="140차시">140차시</option>
+                    <option value="141차시">141차시</option>
+                    <option value="142차시">142차시</option>
+                    <option value="143차시">143차시</option>
+                    <option value="144차시">144차시</option>
+                    <option value="145차시">145차시</option>
+                    <option value="146차시">146차시</option>
+                    <option value="147차시">147차시</option>
+                    <option value="148차시">148차시</option>
+                    <option value="149차시">149차시</option>
+                    <option value="150차시">150차시</option>
+                    <option value="151차시">151차시</option>
+                    <option value="152차시">152차시</option>
+                    <option value="153차시">153차시</option>
+                    <option value="154차시">154차시</option>
+                    <option value="155차시">155차시</option>
+                    <option value="156차시">156차시</option>
+                    <option value="157차시">157차시</option>
+                    <option value="158차시">158차시</option>
+                    <option value="159차시">159차시</option>
+                    <option value="160차시">160차시</option>
+                    <option value="161차시">161차시</option>
+                    <option value="162차시">162차시</option>
+                    <option value="163차시">163차시</option>
+                    <option value="164차시">164차시</option>
+                    <option value="165차시">165차시</option>
+                    <option value="166차시">166차시</option>
+                    <option value="167차시">167차시</option>
+                    <option value="168차시">168차시</option>
+                    <option value="169차시">169차시</option>
+                    <option value="170차시">170차시</option>
+                    <option value="171차시">171차시</option>
+                    <option value="172차시">172차시</option>
+                    <option value="173차시">173차시</option>
+                    <option value="174차시">174차시</option>
+                    <option value="175차시">175차시</option>
+                    <option value="176차시">176차시</option>
+                    <option value="177차시">177차시</option>
+                    <option value="178차시">178차시</option>
+                    <option value="179차시">179차시</option>
+                    <option value="180차시">180차시</option>
+                    <option value="181차시">181차시</option>
+                    <option value="182차시">182차시</option>
+                    <option value="183차시">183차시</option>
+                    <option value="184차시">184차시</option>
+                    <option value="185차시">185차시</option>
+                    <option value="186차시">186차시</option>
+                    <option value="187차시">187차시</option>
+                    <option value="188차시">188차시</option>
+                    <option value="189차시">189차시</option>
+                    <option value="190차시">190차시</option>
+                    <option value="191차시">191차시</option>
+                    <option value="192차시">192차시</option>
+                    <option value="193차시">193차시</option>
+                    <option value="194차시">194차시</option>
+                    <option value="195차시">195차시</option>
+                    <option value="196차시">196차시</option>
+                    <option value="197차시">197차시</option>
+                    <option value="198차시">198차시</option>
+                    <option value="199차시">199차시</option>
+                </select>
+                ※ 2학기: 1차시부터 시작
+            </td>
+        </tr>
+        <tr>
+            <td>주제</td>
+            <td>
+                <input type="text" class="jb-xx-large" id="matter1" style="width:98%">
+            </td>
+        </tr>
+    </table>
+    <br>
+    <input type="button" class="jb-xx-large" value="제목 생성" onclick="func1()">
+    <br><br>
+    <textarea class="jb-xx-large" id="output1" style="width:50%;height:100px;"></textarea>
+    <br>
+    <button onclick="copy_to_clipboard1()" class="jb-xx-large">자동 생성된 제목 복사하기</button>
+    <a href="https://web.microsoftstream.com/upload" target="_blank"><button class="jb-xx-large">Stream으로 이동</button></a>
+    <br><br>
+    <hr>
+    <!--2학년 시작-->
+    <h1>2학년</h1>
+    <table style="border:1px black solid;width:50%;height:50%;">
+        <tr>
+            <td>과목코드</td>
+            <td>
+                <select class="jb-xx-large" id="subject_code2">
+                    <option value="문학A(y1_t01)">문학A(y1_t01)</option>
+                    <option value="문학B(y1_t02)">문학B(y1_t02)</option>
+                    <option value="생활교양(일본어2)(y1_t03)">생활교양(일본어2)(y1_t03)</option>
+                    <option value="생활교양(정보과학)(y1_t04)">생활교양(정보과학)(y1_t04)</option>
+                    <option value="생활교양(중국어2)(y1_t05)">생활교양(중국어2)(y1_t05)</option>
+                    <option value="수학1(y1_t06)">수학1(y1_t06)</option>
+                    <option value="수학2(y1_t07)">수학2(y1_t07)</option>
+                    <option value="영어1A(y1_t08)">영어1A(y1_t08)</option>
+                    <option value="영어1B(y1_t09)">영어1B(y1_t09)</option>
+                    <option value="예능(미술)(y1_t10)">예능(미술)(y1_t10)</option>
+                    <option value="예능(음악)(y1_t11)">예능(음악)(y1_t11)</option>
+                    <option value="운동과건강(y1_t12)">운동과건강(y1_t12)</option>
+                    <option value="탐구(이학공학)(물리1)(y1_t13)">탐구(이학공학)(물리1)(y1_t13)</option>
+                    <option value="탐구(이학공학)(생명과학1)(y1_t14)">탐구(이학공학)(생명과학1)(y1_t14)</option>
+                    <option value="탐구(이학공학)(지구과학1)(y1_t15)">탐구(이학공학)(지구과학1)(y1_t15)</option>
+                    <option value="탐구(이학공학)(화학1)(y1_t16)">탐구(이학공학)(화학1)(y1_t16)</option>
+                    <option value="탐구(인문사회)(경제)(y1_t17)">탐구(인문사회)(경제)(y1_t17)</option>
+                    <option value="탐구(인문사회)(세계사)(y1_t18)">탐구(인문사회)(세계사)(y1_t18)</option>
+                    <option value="탐구(인문사회)(세계지리)(y1_t19)">탐구(인문사회)(세계지리)(y1_t19)</option>                    
+                    <option value="탐구(인문사회)(윤리와사상)(y1_t20)">탐구(인문사회)(윤리와사상)(y1_t20)</option>
+                    <option value="탐구(인문사회)(정치와법)(y1_t21)">탐구(인문사회)(정치와법)(y1_t21)</option>
+                    <option value="창체(계기)(y1_t22)">창체(계기)(y1_t22)</option>
+                    <option value="창체(독서)(y1_t23)">창체(독서)(y1_t23)</option>
+                    <option value="창체(동아리)(y1_t24)">창체(동아리)(y1_t24)</option>
+                    <option value="창체(학급회의)(y1_t25)">창체(학급회의)(y1_t25)</option>
+                    <option value="철학(y1_t26)">철학(y1_t26)</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>차시</td>
+            <td>
+                <select class="jb-xx-large" id="order2">
+                    <option value="1차시">1차시</option>
+                    <option value="2차시">2차시</option>
+                    <option value="3차시">3차시</option>
+                    <option value="4차시">4차시</option>
+                    <option value="5차시">5차시</option>
+                    <option value="6차시">6차시</option>
+                    <option value="7차시">7차시</option>
+                    <option value="8차시">8차시</option>
+                    <option value="9차시">9차시</option>
+                    <option value="10차시">10차시</option>
+                    <option value="11차시">11차시</option>
+                    <option value="12차시">12차시</option>
+                    <option value="13차시">13차시</option>
+                    <option value="14차시">14차시</option>
+                    <option value="15차시">15차시</option>
+                    <option value="16차시">16차시</option>
+                    <option value="17차시">17차시</option>
+                    <option value="18차시">18차시</option>
+                    <option value="19차시">19차시</option>
+                    <option value="20차시">20차시</option>
+                    <option value="21차시">21차시</option>
+                    <option value="22차시">22차시</option>
+                    <option value="23차시">23차시</option>
+                    <option value="24차시">24차시</option>
+                    <option value="25차시">25차시</option>
+                    <option value="26차시">26차시</option>
+                    <option value="27차시">27차시</option>
+                    <option value="28차시">28차시</option>
+                    <option value="29차시">29차시</option>
+                    <option value="30차시">30차시</option>
+                    <option value="31차시">31차시</option>
+                    <option value="32차시">32차시</option>
+                    <option value="33차시">33차시</option>
+                    <option value="34차시">34차시</option>
+                    <option value="35차시">35차시</option>
+                    <option value="36차시">36차시</option>
+                    <option value="37차시">37차시</option>
+                    <option value="38차시">38차시</option>
+                    <option value="39차시">39차시</option>
+                    <option value="40차시">40차시</option>
+                    <option value="41차시">41차시</option>
+                    <option value="42차시">42차시</option>
+                    <option value="43차시">43차시</option>
+                    <option value="44차시">44차시</option>
+                    <option value="45차시">45차시</option>
+                    <option value="46차시">46차시</option>
+                    <option value="47차시">47차시</option>
+                    <option value="48차시">48차시</option>
+                    <option value="49차시">49차시</option>
+                    <option value="50차시">50차시</option>
+                    <option value="51차시">51차시</option>
+                    <option value="52차시">52차시</option>
+                    <option value="53차시">53차시</option>
+                    <option value="54차시">54차시</option>
+                    <option value="55차시">55차시</option>
+                    <option value="56차시">56차시</option>
+                    <option value="57차시">57차시</option>
+                    <option value="58차시">58차시</option>
+                    <option value="59차시">59차시</option>
+                    <option value="60차시">60차시</option>
+                    <option value="61차시">61차시</option>
+                    <option value="62차시">62차시</option>
+                    <option value="63차시">63차시</option>
+                    <option value="64차시">64차시</option>
+                    <option value="65차시">65차시</option>
+                    <option value="66차시">66차시</option>
+                    <option value="67차시">67차시</option>
+                    <option value="68차시">68차시</option>
+                    <option value="69차시">69차시</option>
+                    <option value="70차시">70차시</option>
+                    <option value="71차시">71차시</option>
+                    <option value="72차시">72차시</option>
+                    <option value="73차시">73차시</option>
+                    <option value="74차시">74차시</option>
+                    <option value="75차시">75차시</option>
+                    <option value="76차시">76차시</option>
+                    <option value="77차시">77차시</option>
+                    <option value="78차시">78차시</option>
+                    <option value="79차시">79차시</option>
+                    <option value="80차시">80차시</option>
+                    <option value="81차시">81차시</option>
+                    <option value="82차시">82차시</option>
+                    <option value="83차시">83차시</option>
+                    <option value="84차시">84차시</option>
+                    <option value="85차시">85차시</option>
+                    <option value="86차시">86차시</option>
+                    <option value="87차시">87차시</option>
+                    <option value="88차시">88차시</option>
+                    <option value="89차시">89차시</option>
+                    <option value="90차시">90차시</option>
+                    <option value="91차시">91차시</option>
+                    <option value="92차시">92차시</option>
+                    <option value="93차시">93차시</option>
+                    <option value="94차시">94차시</option>
+                    <option value="95차시">95차시</option>
+                    <option value="96차시">96차시</option>
+                    <option value="97차시">97차시</option>
+                    <option value="98차시">98차시</option>
+                    <option value="99차시">99차시</option>
+                    <option value="100차시">100차시</option>
+                    <option value="101차시">101차시</option>
+                    <option value="102차시">102차시</option>
+                    <option value="103차시">103차시</option>
+                    <option value="104차시">104차시</option>
+                    <option value="105차시">105차시</option>
+                    <option value="106차시">106차시</option>
+                    <option value="107차시">107차시</option>
+                    <option value="108차시">108차시</option>
+                    <option value="109차시">109차시</option>
+                    <option value="110차시">110차시</option>
+                    <option value="111차시">111차시</option>
+                    <option value="112차시">112차시</option>
+                    <option value="113차시">113차시</option>
+                    <option value="114차시">114차시</option>
+                    <option value="115차시">115차시</option>
+                    <option value="116차시">116차시</option>
+                    <option value="117차시">117차시</option>
+                    <option value="118차시">118차시</option>
+                    <option value="119차시">119차시</option>
+                    <option value="120차시">120차시</option>
+                    <option value="121차시">121차시</option>
+                    <option value="122차시">122차시</option>
+                    <option value="123차시">123차시</option>
+                    <option value="124차시">124차시</option>
+                    <option value="125차시">125차시</option>
+                    <option value="126차시">126차시</option>
+                    <option value="127차시">127차시</option>
+                    <option value="128차시">128차시</option>
+                    <option value="129차시">129차시</option>
+                    <option value="130차시">130차시</option>
+                    <option value="131차시">131차시</option>
+                    <option value="132차시">132차시</option>
+                    <option value="133차시">133차시</option>
+                    <option value="134차시">134차시</option>
+                    <option value="135차시">135차시</option>
+                    <option value="136차시">136차시</option>
+                    <option value="137차시">137차시</option>
+                    <option value="138차시">138차시</option>
+                    <option value="139차시">139차시</option>
+                    <option value="140차시">140차시</option>
+                    <option value="141차시">141차시</option>
+                    <option value="142차시">142차시</option>
+                    <option value="143차시">143차시</option>
+                    <option value="144차시">144차시</option>
+                    <option value="145차시">145차시</option>
+                    <option value="146차시">146차시</option>
+                    <option value="147차시">147차시</option>
+                    <option value="148차시">148차시</option>
+                    <option value="149차시">149차시</option>
+                    <option value="150차시">150차시</option>
+                    <option value="151차시">151차시</option>
+                    <option value="152차시">152차시</option>
+                    <option value="153차시">153차시</option>
+                    <option value="154차시">154차시</option>
+                    <option value="155차시">155차시</option>
+                    <option value="156차시">156차시</option>
+                    <option value="157차시">157차시</option>
+                    <option value="158차시">158차시</option>
+                    <option value="159차시">159차시</option>
+                    <option value="160차시">160차시</option>
+                    <option value="161차시">161차시</option>
+                    <option value="162차시">162차시</option>
+                    <option value="163차시">163차시</option>
+                    <option value="164차시">164차시</option>
+                    <option value="165차시">165차시</option>
+                    <option value="166차시">166차시</option>
+                    <option value="167차시">167차시</option>
+                    <option value="168차시">168차시</option>
+                    <option value="169차시">169차시</option>
+                    <option value="170차시">170차시</option>
+                    <option value="171차시">171차시</option>
+                    <option value="172차시">172차시</option>
+                    <option value="173차시">173차시</option>
+                    <option value="174차시">174차시</option>
+                    <option value="175차시">175차시</option>
+                    <option value="176차시">176차시</option>
+                    <option value="177차시">177차시</option>
+                    <option value="178차시">178차시</option>
+                    <option value="179차시">179차시</option>
+                    <option value="180차시">180차시</option>
+                    <option value="181차시">181차시</option>
+                    <option value="182차시">182차시</option>
+                    <option value="183차시">183차시</option>
+                    <option value="184차시">184차시</option>
+                    <option value="185차시">185차시</option>
+                    <option value="186차시">186차시</option>
+                    <option value="187차시">187차시</option>
+                    <option value="188차시">188차시</option>
+                    <option value="189차시">189차시</option>
+                    <option value="190차시">190차시</option>
+                    <option value="191차시">191차시</option>
+                    <option value="192차시">192차시</option>
+                    <option value="193차시">193차시</option>
+                    <option value="194차시">194차시</option>
+                    <option value="195차시">195차시</option>
+                    <option value="196차시">196차시</option>
+                    <option value="197차시">197차시</option>
+                    <option value="198차시">198차시</option>
+                    <option value="199차시">199차시</option>
+                </select>
+                ※ 2학기: 1차시부터 시작
+            </td>
+        </tr>
+        <tr>
+            <td>주제</td>
+            <td>
+                <input type="text" class="jb-xx-large" id="matter2" style="width:98%">
+            </td>
+        </tr>
+    </table>
+    <br>
+    <input type="button" class="jb-xx-large" value="제목 생성" onclick="func2()">
+    <br><br>
+    <textarea class="jb-xx-large" id="output2" style="width:50%;height:100px;"></textarea>
+    <br>
+    <button onclick="copy_to_clipboard2()" class="jb-xx-large">자동 생성된 제목 복사하기</button>
+    <a href="https://web.microsoftstream.com/upload" target="_blank"><button class="jb-xx-large">Stream으로 이동</button></a>
+
+
+    <script>
+        function func1()
+        {
+            var v1 = document.getElementById("year").value;
+            var v2 = document.getElementById("semester").value;
+            var v3 = document.getElementById("subject_code1").value;
+            var v4 = document.getElementById("order1").value;
+            var v5 = document.getElementById("matter1").value;
+            var v7 = v3.length-7
+            var v8 = v3.length-1
+            str = '[a]'+'['+v1+']'+'['+v2+']'+'['+v3.substring(v7,v8)+']'+'['+v4+']'+'['+v3.substring(0,v3.length-8)+']'+'['+v5+']'
+            document.getElementById('output1').value = str
+        }
+        function func2()
+        {
+            var v1 = document.getElementById("year").value;
+            var v2 = document.getElementById("semester").value;
+            var v3 = document.getElementById("subject_code2").value;
+            var v4 = document.getElementById("order2").value;
+            var v5 = document.getElementById("matter2").value;
+            var v7 = v3.length-7
+            var v8 = v3.length-1
+            str = '[a]'+'['+v1+']'+'['+v2+']'+'['+v3.substring(v7,v8)+']'+'['+v4+']'+'['+v3.substring(0,v3.length-8)+']'+'['+v5+']'
+            document.getElementById('output2').value = str
+        }
+        function copy_to_clipboard1() 
+        {    
+            var copyText = document.getElementById('output1');
+            copyText.select();
+            copyText.setSelectionRange(0, output1.value.length);
+            document.execCommand("Copy");
+            //alert('복사되었습니다, 감사합니다.');
+        }
+        function copy_to_clipboard2() 
+        {    
+            var copyText = document.getElementById('output2');
+            copyText.select();
+            copyText.setSelectionRange(0, output2.value.length);
+            document.execCommand("Copy");
+            //alert('복사되었습니다, 감사합니다.');
+        }
+    </script>
+</body>
+</html>
